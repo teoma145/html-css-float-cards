@@ -10,9 +10,10 @@ body{
     background-color: white;
 }
 
-.debug{
+/*.debug{
     border: 1px solid black;
-}
+    */
+
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
@@ -35,14 +36,13 @@ body{
     float: left;
     margin: 30px;
 }
-div{
-    border: 1px solid black;
-}
+
+
 .box {
     width: calc(100% / 3 - 60px);
     color: white;
     background-color: #0F0E17;  
-      
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
 
 }
 .immagini{
@@ -52,4 +52,23 @@ div{
 }
 .descrizione{
     display: inline-block;
+    padding: 10px;
+    
+}
+.descrizione > span{
+    display: inline-block;
+    margin-bottom: 7px;
+    
+}
+.descrizione span:first-child{
+    font-weight: bold;
+}
+
+    .descrizione span:nth-child(5){
+    color: #2C789D;
+    font-size: 12px;
+    font-weight: bold;
+}
+.font {
+    font-size: 12px;
 }
