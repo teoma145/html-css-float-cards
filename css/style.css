@@ -40,5 +40,16 @@ div{
 }
 .box {
     width: calc(100% / 3 - 60px);
+    color: white;
+    background-color: #0F0E17;  
+      
 
+}
+.immagini{
+    width: 100px;
+    height: auto;
+    vertical-align: top;
+}
+.descrizione{
+    display: inline-block;
 }
