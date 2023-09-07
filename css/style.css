@@ -22,3 +22,23 @@ body{
    color: fuchsia;
    text-align: center;
 }
+.testo{
+    display: flex;
+    text-align: center;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.pull-left{
+    float: left;
+    margin: 30px;
+}
+div{
+    border: 1px solid black;
+}
+.box {
+    width: calc(100% / 3 - 60px);
+
+}
