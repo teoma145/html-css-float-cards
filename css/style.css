@@ -43,6 +43,7 @@ body{
     color: white;
     background-color: #0F0E17;  
     box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    min-width: 300px;
 
 }
 .immagini{
@@ -64,11 +65,15 @@ body{
     font-weight: bold;
 }
 
-    .descrizione span:nth-child(5){
+.descrizione span:nth-child(5){
     color: #2C789D;
     font-size: 12px;
     font-weight: bold;
+    word-wrap: break-word;
 }
-.font {
+/*.font { 
+    font-size: 12px;
+}*/
+.descrizione span:nth-child(3){
     font-size: 12px;
 }
